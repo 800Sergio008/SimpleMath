@@ -108,6 +108,7 @@ print(SimpleMath.Clamp(15, 0, 10)) -- 10
 | Math.Remap | number, number, number, number, number | number |
 | Math.Noise | number | number |
 | Math.Sign | number | number |
-
+---
+---
 ## License
 This repository is open-source and free to use under the MIT License.

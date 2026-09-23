@@ -2,13 +2,11 @@
 
 ## Description
 A pure Luau implementation of mathematical functions, constants, and utilities built without reliance on Roblox's native `math` library. Written with strict dynamic typing `--!strict` and high precision approximations.
-
 ## Capabilities
 - Strict Type Checking: built with `--!strict` mode for robust integration.
 - Zero External Dependencies: implements algorithms (Taylor series, Newton-Raphson, Polynomial Approximations) from scratch.
 - Comprehensive API: standard math operations, logarithmic and exponential calculations, trigonometry, and range utilities.
 - Immutable: prevented runtime mutation.
-
 ---
 ---
 ## Installation
@@ -111,23 +109,24 @@ print(SimpleMath.Clamp(15, 0, 10)) -- 10
 ---
 ---
 ## Contributing
-Contributions, feedback, and bug reports are available. Help me to improve my mathematical understanding and, most importantly, adjust numerical accuracy, optimization, or expand coverage.
+Contribution, feedback, and bug report. Help me to improve my mathematical understanding and, most importantly, adjust numerical accuracy, optimization, or expand coverage.
 1. Fork the Repository
 2. Create a Feature Branch
 3. Write and Format Code:
-- - Keep `--!strict` dynamic type annotations enabled
-- - Match existing naming conventions (`PascalCase` for library functions)
-- - Maintain zero external dependency rules
-4. Submit a pull request
+- Keep `--!strict` dynamic type annotations enabled
+- Match existing naming conventions (`PascalCase` for library functions)
+- Maintain zero external dependency rules
+4. Submit a Pull Request
 
 ## Contact and Support
-Have questions, suggestions, or issues?
+Questions, suggestions, or issues?
 - Open an issue on Github Issues
 - Send an email to `spoletti@tuta.io`
 
 ## License
 This repository is open-source and free to use under the MIT License.
-
+--
+--
 > ## About the Repository:
 > - `SimpleMath` is based off C Language and Raylib `math` libraries
 > - AI Agents were used to debug `SimpleMath`

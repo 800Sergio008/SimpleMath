@@ -47,4 +47,4 @@ print(SimpleMath.Clamp(15, 0, 10)) -- 10
 ## API Reference
 ### Constants
 | Constant | Description | Value |
-| -------- |:-----------:|:-----:|
+| -------- | ----------- | ----- |

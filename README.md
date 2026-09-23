@@ -48,3 +48,4 @@ print(SimpleMath.Clamp(15, 0, 10)) -- 10
 ### Constants
 | Constant | Description | Value |
 | -------- | ----------- | ----- |
+| MIN_VALUE | Minimum positive floating point number | 5e-324 |

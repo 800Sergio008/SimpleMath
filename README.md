@@ -28,7 +28,7 @@ local math = SimpleMath
 local SimpleMath = require(path.to.SimpleMath)
 
 -- Constants
-print(SimpleMath.PI) -- 3.1415926...
+print(SimpleMath.PI) -- 3.14159265358979323846
 
 -- Standard operations
 print(SimpleMath.Round(7.2081, 2)) -- 7.20

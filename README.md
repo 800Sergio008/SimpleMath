@@ -10,7 +10,7 @@ A pure Luau implementation of mathematical functions, constants, and utilities b
 - Immutable: prevented runtime mutation
 
 ---
-**
+***
 ___
 ## Installation
 1. Copy the contents of `SimpleMath.luau` into a ModuleScript inside your Roblox project or Luau application

@@ -49,3 +49,18 @@ print(SimpleMath.Clamp(15, 0, 10)) -- 10
 | Constant | Description | Value |
 | -------- | ----------- | ----- |
 | MIN_VALUE | Minimum positive floating point number | 5e-324 |
+| MAX_VALUE | Maximum positive floating point number | 1.79e+308 |
+| E | Euler's constant (*e*) | 2.7182818284590452354 |
+| LOG2E | Base-2 logarithm of *e* | 1.4426950408889634074 |
+| LOG10E | Base-10 logarithm of *e* | 0.43429448190325182765 |
+| LN2 | Natural logarithm of 2 | 0.69314718055994530942 |
+| LN10 | Natura logarithm of 10 | 2.30258509299404568402 |
+| SQRT2 | Square root of 2 | 1.41421356237309504880 |
+| SQRT1_2 | Square root of 1/2 | 0.70710678118654752440 |
+| PI | Archimedes' constants (*π*) | 3.14159265358979323846 |
+| TAU | 2 ⅹ π | 6.28318530718 | 6.2831853071795864769 |
+| EPSILON | Machine precision threshold | 1e-6 |
+| HUGE | Representation of positive infinity (∞) | 1/0 |
+| NAN | Representation of Not-a-Number | 0/0 |
+| DEG2RAD | Multiplier to convert degrees to radians | π/180 |
+| RAD2DEG | Multiplier to convert radians to degrees | 180/π |

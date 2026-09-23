@@ -43,8 +43,8 @@ print(SimpleMath.Lerp(0, 100, 0.5)) -- 50
 print(SimpleMath.Clamp(15, 0, 10)) -- 10
 ```
 ---
-***
-___
+---
 ## API Reference
 ### Constants
 | Constant | Description | Value |
+| -------- |:-----------:|:-----:|

@@ -10,8 +10,7 @@ A pure Luau implementation of mathematical functions, constants, and utilities b
 - Immutable: prevented runtime mutation
 
 ---
-***
-___
+---
 ## Installation
 1. Copy the contents of `SimpleMath.luau` into a ModuleScript inside your Roblox project or Luau application
 2. Require the module whenever needed:
@@ -43,3 +42,9 @@ print(SimpleMath.Sin(Math.PI / 2)) -- 1
 print(SimpleMath.Lerp(0, 100, 0.5)) -- 50
 print(SimpleMath.Clamp(15, 0, 10)) -- 10
 ```
+---
+***
+___
+## API Reference
+### Constants
+| Constant | Description | Value |

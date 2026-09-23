@@ -1,10 +1,14 @@
 # SimpleMath
 
 ## Description
-A pure Luau implementation of mathematical functions, constants, and utilities built without reliance on Roblox's native math library. Written with strict dynamic typing `--!strict` and high precision approximations.
+A pure Luau implementation of mathematical functions, constants, and utilities built without reliance on Roblox's native `math` library. Written with strict dynamic typing `--!strict` and high precision approximations.
 
 ## Capabilities
 - Strict Type Checking: built with `--!strict` mode for robust integration
 - Zero External Dependencies: implements algorithms (Taylor series, Newton-Raphson, Polynomial Approximations) from scratch
 - Comprehensive API: standard math operations, logarithmic and exponential calculations, trigonometry, and range utilities
 - Immutable: prevented runtime mutation
+
+---
+***
+___

@@ -4,15 +4,15 @@
 A pure Luau implementation of mathematical functions, constants, and utilities built without reliance on Roblox's native `math` library. Written with strict dynamic typing `--!strict` and high precision approximations.
 
 ## Capabilities
-- Strict Type Checking: built with `--!strict` mode for robust integration
-- Zero External Dependencies: implements algorithms (Taylor series, Newton-Raphson, Polynomial Approximations) from scratch
-- Comprehensive API: standard math operations, logarithmic and exponential calculations, trigonometry, and range utilities
-- Immutable: prevented runtime mutation
+- Strict Type Checking: built with `--!strict` mode for robust integration.
+- Zero External Dependencies: implements algorithms (Taylor series, Newton-Raphson, Polynomial Approximations) from scratch.
+- Comprehensive API: standard math operations, logarithmic and exponential calculations, trigonometry, and range utilities.
+- Immutable: prevented runtime mutation.
 
 ---
 ---
 ## Installation
-1. Copy the contents of `SimpleMath.luau` into a ModuleScript inside your Roblox project or Luau application
+1. Copy the contents of `SimpleMath.luau` into a ModuleScript inside your Roblox project or Luau application.
 2. Require the module whenever needed:
 ```luau
 local SimpleMath = require(path.to.SimpleMath)
@@ -68,4 +68,46 @@ print(SimpleMath.Clamp(15, 0, 10)) -- 10
 ### Math Functions
 | Method | Parameter(*s*) | Value |
 | ------ | -------------- | ----- |
-| Math.Fabs | x: number | number | -- guy
+| Math.Fabs | number | number |
+| Math.Floor | number | number |
+| Math.Ceil | number | number |
+| Math.Round | number, number? | number |
+| Math.Trunc | number | number |
+| Math.Fmod | number, number | number |
+| Math.Modf | number | number, number |
+### Power and Logarithmic Functions
+| Method | Parameter(*s*) | Value |
+| ------ | -------------- | ----- |
+| Math.Exp | number | number |
+| Math.Log | number | number |
+| Math.Log10 | number | number |
+| Math.Pow | number, number | number |
+| Math.Sqrt | number | number |
+| Math.Frexp | number | number, number |
+| Math.Ldexp | number, number | number |
+### Trigonometry and Hyperbolic Functions
+| Method | Parameter(*s*) | Value |
+| ------ | -------------- | ----- |
+| Math.Sin | number | number |
+| Math.Cos | number | number |
+| Math.Tan | number | number |
+| Math.Atan2 | number, number | number |
+| Math.Atan | number | number |
+| Math.Asin | number | number |
+| Math.Acos | number | number |
+| Math.Sinh | number | number |
+| Math.Cosh | number | number |
+| Math.Tanh | number | number |
+| Math.Rad | number | number |
+### Advanced and Interpolation Functions
+| Method | Parameter(*s*) | Value |
+| ------ | -------------- | ----- |
+| Math.Clamp | number, number, number | number |
+| Math.Lerp | number, number, number | number |
+| Math.Normalize | number, number, number | number |
+| Math.Remap | number, number, number, number, number | number |
+| Math.Noise | number | number |
+| Math.Sign | number | number |
+
+## License
+This repository is open-source and free to use under the MIT License.

@@ -64,3 +64,8 @@ print(SimpleMath.Clamp(15, 0, 10)) -- 10
 | NAN | Representation of Not-a-Number | 0/0 |
 | DEG2RAD | Multiplier to convert degrees to radians | π/180 |
 | RAD2DEG | Multiplier to convert radians to degrees | 180/π |
+
+### Math Functions
+| Method | Parameter(*s*) | Value |
+| ------ | -------------- | ----- |
+| Math.Fabs | x: number | number | -- guy

@@ -1,5 +1,3 @@
-> **VERSION: 1.0.0**
-
 # SimpleMath
 
 ## Description
@@ -114,3 +112,6 @@ print(SimpleMath.Clamp(15, 0, 10)) -- 10
 ---
 ## License
 This repository is open-source and free to use under the MIT License.
+
+> ## About the Repository:
+

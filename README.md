@@ -115,9 +115,9 @@ Contributions, feedback, and bug reports are available. Help me to improve my ma
 1. Fork the Repository
 2. Create a Feature Branch
 3. Write and Format Code:
-- Keep `--!strict` dynamic type annotations enabled
-- Match existing naming conventions (`PascalCase` for library functions)
-- Maintain zero external dependency rules
+- - Keep `--!strict` dynamic type annotations enabled
+- - Match existing naming conventions (`PascalCase` for library functions)
+- - Maintain zero external dependency rules
 4. Submit a pull request
 
 ## Contact and Support

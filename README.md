@@ -9,9 +9,9 @@ A pure Luau implementation of mathematical functions, constants, and utilities b
 - Comprehensive API: standard math operations, logarithmic and exponential calculations, trigonometry, and range utilities
 - Immutable: prevented runtime mutation
 
---
+---
 **
-__
+___
 ## Installation
 1. Copy the contents of `SimpleMath.luau` into a ModuleScript inside your Roblox project or Luau application
 2. Require the module whenever needed:

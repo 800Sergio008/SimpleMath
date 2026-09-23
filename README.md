@@ -25,3 +25,21 @@ local SimpleMath = require(path.to.SimpleMath)
 
 local math = SimpleMath
 ```
+## Example
+```luau
+local SimpleMath = require(path.to.SimpleMath)
+
+-- Constants
+print(SimpleMath.PI) -- 3.1415926...
+
+-- Standard operations
+print(SimpleMath.Round(7.20811, 2)) -- 7.20
+print(SimpleMath.Sqrt(16)) -- 4
+
+-- Trigonometry
+print(SimpleMath.Sin(Math.PI / 2)) -- 1
+
+-- Advanced Utilities
+print(SimpleMath.Lerp(0, 100, 0.5)) -- 50
+print(SimpleMath.Clamp(15, 0, 10)) -- 10
+```

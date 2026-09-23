@@ -1,4 +1,10 @@
 # SimpleMath
 
 ## Description
-The ultimate Roblox Utility when it comes to doing mathematic equations at top speed. SimpleMath is set to replace the Roblox's math library.
+A pure Luau implementation of mathematical functions, constants, and utilities built without reliance on Roblox's native math library. Written with strict dynamic typing `--!strict` and high precision approximations.
+
+## Capabilities
+- Strict Type Checking: built with `--!strict` mode for robust integration
+- Zero External Dependencies: implements algorithms (Taylor series, Newton-Raphson, Polynomial Approximations) from scratch
+- Comprehensive API: standard math operations, logarithmic and exponential calculations, trigonometry, and range utilities
+- Immutable: prevented runtime mutation

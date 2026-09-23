@@ -110,10 +110,25 @@ print(SimpleMath.Clamp(15, 0, 10)) -- 10
 | Math.Sign | number | number |
 ---
 ---
+## Contributing
+Contributions, feedback, and bug reports are available. Help me to improve my mathematical understanding and, most importantly, adjust numerical accuracy, optimization, or expand coverage.
+1. Fork the Repository
+2. Create a Feature Branch
+3. Write and Format Code:
+- Keep `--!strict` dynamic type annotations enabled
+- Match existing naming conventions (`PascalCase` for library functions)
+- Maintain zero external dependency rules
+4. Submit a pull request
+
+## Contact and Support
+Have questions, suggestions, or issues?
+- Open an issue on Github Issues
+- Send an email to `spoletti@tuta.io`
+
 ## License
 This repository is open-source and free to use under the MIT License.
 
 > ## About the Repository:
 > - `SimpleMath` is based off C Language and Raylib `math` libraries
-> - AI Agents were used to Debug `SimpleMath`
+> - AI Agents were used to debug `SimpleMath`
 > - The use of AI Agents does NOT imply that the entire code was made using AI

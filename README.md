@@ -18,3 +18,10 @@ ___
 ```luau
 local SimpleMath = require(path.to.SimpleMath)
 ```
+### Optional
+3. Swap Roblox's `math` library with `SimpleMath`:
+```luau
+local SimpleMath = require(path.to.SimpleMath)
+
+local math = SimpleMath
+```

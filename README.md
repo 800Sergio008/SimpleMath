@@ -1,4 +1,4 @@
-# SimpleMath
+# SimpleMath 1.0.0
 
 ## Description
 A pure Luau implementation of mathematical functions, constants, and utilities built without reliance on Roblox's native `math` library. Written with strict dynamic typing `--!strict` and high precision approximations.

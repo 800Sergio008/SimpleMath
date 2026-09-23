@@ -114,4 +114,6 @@ print(SimpleMath.Clamp(15, 0, 10)) -- 10
 This repository is open-source and free to use under the MIT License.
 
 > ## About the Repository:
-
+> `SimpleMath` is based off C Language and Raylib `math` libraries
+> AI Agents were used to Debug `SimpleMath`
+> The use of AI Agents does NOT imply that the entire code was made using AI

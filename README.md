@@ -7,6 +7,7 @@ A pure Luau implementation of mathematical functions, constants, and utilities b
 - Zero External Dependencies: implements algorithms (Taylor series, Newton-Raphson, Polynomial Approximations) from scratch.
 - Comprehensive API: standard math operations, logarithmic and exponential calculations, trigonometry, and range utilities.
 - Immutable: prevented runtime mutation.
+
 ---
 ---
 ## Installation
@@ -40,6 +41,7 @@ print(SimpleMath.Sin(Math.PI / 2)) -- 1
 print(SimpleMath.Lerp(0, 100, 0.5)) -- 50
 print(SimpleMath.Clamp(15, 0, 10)) -- 10
 ```
+
 ---
 ---
 ## API Reference
@@ -106,6 +108,7 @@ print(SimpleMath.Clamp(15, 0, 10)) -- 10
 | Math.Remap | number, number, number, number, number | number |
 | Math.Noise | number | number |
 | Math.Sign | number | number |
+
 ---
 ---
 ## Contributing
@@ -117,16 +120,15 @@ Contribution, feedback, and bug report. Help me to improve my mathematical under
 - Match existing naming conventions (`PascalCase` for library functions)
 - Maintain zero external dependency rules
 4. Submit a Pull Request
-
 ## Contact and Support
 Questions, suggestions, or issues?
 - Open an issue on Github Issues
 - Send an email to `spoletti@tuta.io`
-
 ## License
 This repository is open-source and free to use under the MIT License.
---
---
+
+---
+---
 > ## About the Repository:
 > - `SimpleMath` is based off C Language and Raylib `math` libraries
 > - AI Agents were used to debug `SimpleMath`

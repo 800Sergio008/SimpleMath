@@ -1,7 +1,7 @@
 # SimpleMath 1.0.0
 
 ## Description
-A pure Luau implementation of mathematical functions, constants, and utilities built without reliance on Roblox's native `math` library. Written with strict dynamic typing `--!strict` and high precision approximations.
+A pure Luau implementation of mathematical functions, constants, and utilities built without reliance on native `math` library. Written with strict dynamic typing `--!strict` and high precision approximations.
 ## Capabilities
 - Strict Type Checking: built with `--!strict` mode for robust integration.
 - Zero External Dependencies: implements algorithms (Taylor series, Newton-Raphson, Polynomial Approximations) from scratch.
@@ -11,13 +11,13 @@ A pure Luau implementation of mathematical functions, constants, and utilities b
 ---
 ---
 ## Installation
-1. Copy the contents of `SimpleMath.luau` into a ModuleScript inside your Roblox project or Luau application.
+1. Copy the contents of `SimpleMath.luau` into a ModuleScript.
 2. Require the module whenever needed:
 ```luau
 local SimpleMath = require(path.to.SimpleMath)
 ```
 > [!TIP]
-> 3. Swap Roblox's `math` library with `SimpleMath`:
+> 3. Swap the native `math` library with `SimpleMath`:
 > ```luau
 > local SimpleMath = require(path.to.SimpleMath)
 > 

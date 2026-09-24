@@ -129,7 +129,7 @@ This repository is open-source and free to use under the MIT License.
 
 ---
 ---
-> ## About the Repository:
+> [!NOTE]
 > - `SimpleMath` is based off C Language and Raylib `math` libraries
 > - AI Agents were used to debug `SimpleMath`
 > - The use of AI Agents does NOT imply that the entire code was made using AI
